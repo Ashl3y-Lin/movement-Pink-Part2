@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movement Part 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="quizSection.css">
+    <link rel="stylesheet" href="side-bar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="dropdown-sidebar.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt=""> Home</img></a></li>
+                <li class="with-dropdown">
+                    <a href="#topic-buttons"><img src="https://i.ibb.co/8XYKTgh/reading-book-1.png" alt=""> Topics ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">Movement</a></li>
+                        <li><a href="#">Motor</a></li>
+                        <li><a href="#">Display</a></li>
+                        <li><a href="#">Sound</a></li>
+                        <li><a href="#">Control</a></li>
+                        <li><a href="#">Sensors</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Operator</a></li>
+                        <li><a href="#">Variable</a></li>
+                        <li><a href="#">My Block</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#wro"><img src="https://i.ibb.co/Drnm7cM/competition.png" alt=""> About WRO</img></a></li>
+
+                <!-- Dropdrown of WRO: experiences. tips -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 3 columns -->
+
+    <div class="wrapper">
+        <div class="header-content" id="movement-home">
+            <h1>Movement</h1>
+            <div>
+                <p>
+                    The movement blocks move 2 motors at the same time.
+                    <!-- <p>➡️ Observation: </p>
+                    <p>Degrees is recommened. It is the amount of rotation in the wheel.</p>
+                    <p>You connect the motors to your wheels</p> -->
+                    <p>(In my case, I connect  Motors B and C)</p>
+                </p>
+            </div>
+            <div class="side-side">
+                <a href="https://ibb.co/HzCpGVx"><img src="https://i.ibb.co/DCYgwt8/Pink-arrows.png" alt="Pink-arrows" height="150"></a>
+                <img src="https://i.ibb.co/QKZ28Yz/Pink-blocks.png" alt="Pink-blocks" height="150">
+            </div>
+             
+        </div>
+    
+    <div class="grid-container">
+            <!-- Sidebar content goes here -->
+            <div class="side-bar">
+                <div class="menu">
+                    <div class="item">
+                        <div class="movement-logo"><a href="#movement-home"><img src="https://i.ibb.co/8zbZbRC/Movement-wheel.png" height="90" alt=""></a></div>
+
+                        <a href="#movement-home"><span class="side-bar-title">Part 1</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="#below-header" class="sub-item"> Introduction</a></li>
+                            <li><a href="#forward-backward" class="sub-item">Forward and Backward</a></li>
+                            <li><a href="#pivot-turn" class="sub-item">Pivot Turn</a></li>
+                            <li><a href="#spin-turn" class="sub-item">Spin Turn</a></li>
+                            <li><a href="#movement-key-takeaway" class="sub-item">Key-takeaways</a></li>
+                        </ul>
+
+                        <!-- <a href="different-page.html#section1">Section One</a> -->
+                        <a href=""><span class="side-bar-title">Part 2</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="#movement-challenge1" class="sub-item"> Challenge 1</a></li>
+                            <li><a href="#movement-challenge2" class="sub-item">Challenge 2</a></li>
+                            <li><a href="#movement-challenge3" class="sub-item">Challenge 3</a></li>
+                            <li><a href="#movement-observation" class="sub-item">Observation</a></li>
+                            <li><a href="#movement-quiz" class="sub-item">Quiz</a></li>
+                            <li><a href="#challengeYou" class="sub-item">Challenge for You</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Observation area -->
+            <div class="grid-item together no-background" id="movement-warning">
+                <div class="label">
+                    <h3>Before we start! Read this:</h3>
+                </div>
+                <p>
+                    <ul class="observation-list">
+                        <li>-> Don't worry if the code I used it's different from yours!</li>
+                        <li><a href="#movement-observation">-> Click here to find out why!</a></li>
+                        <br>
+                            <li><strong>Enjoy!</strong></li>
+                    </ul>
+                </p>
+            </div>
+
+            <!-- Challenge -->
+            <div id="movement-challenge1" class="grid-item together pink-background"> <!--flex-container-->
+                <div class="flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Challenge 1: Move in square</h2>
+                        </div>
+                        
+                        <div class="both3">
+                            <img src="https://s12.gifyu.com/images/SZ66s.gif" alt="movement-gif">
+                            
+                            <p>Notice that the robot does not turn accurately.(Don't worry! we'll fix that later)</p>
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/dDsw16K/10-4-Square-Challenge1-img.png" alt="10-4-Square-Challenge1-img">
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div id="movement-challenge2" class="grid-item together pink-background"> <!--flex-container-->
+                <div class="flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Challenge 2: Park the robot (just like parking the car)</h2>
+                        </div>
+                        
+                        <div class="both3">
+                            <img src="https://s12.gifyu.com/images/SZ6cc.gif" alt="movement-gif">
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/12xCqX8/10-5-Park-Car-Chall2-img.png" alt="10-5-Park-Car-Chall2-img">
+
+                        <p>This is pretty much how you park the car :D Try out new ways of parking the car!</p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div id="movement-challenge3" class="grid-item together pink-background"> <!--flex-container-->
+                <div class="flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Challenge 3: Move like the staircase</h2>
+                        </div>
+                        
+                        <div class="both3">
+                            <img src="https://s9.gifyu.com/images/SZ66E.gif" alt="movement-gif">
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="https://s9.gifyu.com/images/SZ663.gif" alt="pink-img">
+
+                        <img src="https://i.ibb.co/p0zw7Xw/10-7-Pink-Stairway.png" alt="10-7-Pink-Stairway">
+                       
+                    </div>
+                </div>
+            </div>
+
+            <!-- Observation area -->
+            <div class="grid-item together no-background" id="movement-observation">
+                <div class="label">
+                    <h3>Observations</h3>
+                </div>
+                <p>
+                    <ul class="observation-list">
+                        <li>-> Why doesn't my robot's wheel stop spinning?
+                            <li>Check if you are using degrees instead of rotation!</li>
+                        </li>
+                        <br>
+                        <li>-> Why is does your move different than mine?
+                            <li>That's because of
+                                <li> * The type of ground/surface (the more slippery, the less degrees you need)</li>
+                                <li> * Maybe your robot design is a little different than mine (every robot move differently)</li>
+                                <li> * The battery of the robot (Remember to charge your robot!)</li>
+                            </li>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            <!-- Quiz Sction -->
+            <div class="grid-item together pink-background" id="movement-quiz">
+                <!-- Quiz section -->
+                <div class="app">
+                    <h1>Time for a quiz!</h1>
+                    <div class="quiz">
+                        <h2 id="question"> Question goes here</h2>
+                        <div id="answer-buttons">
+                            <button class="btn"> Answer 1</button>
+                            <button class="btn"> Answer 2</button>
+                            <button class="btn"> Answer 3</button>
+                            <button class="btn"> Answer 4</button>
+                        </div>
+                        <button id="next-button">Next</button>
+                    </div>
+                </div>
+            </div>
+
+<!-- Challenge for you section -->
+            <div class="grid-item together pink-background" id="challengeYou">
+                <div class="flex-grid flex-container flex-item challenge-container">
+                    <div class="letter-both">
+                        <h2>Challenge for you</h2>
+                    </div>
+                    <div class="flex-item">
+                        <img src="https://s12.gifyu.com/images/SZ6Wh.gif" alt="movement-gif">
+                        <p>Hint:</p>
+                        <p>The speed I used is 40% for the turn and 50% for moving backward</p>
+                    </div>
+
+                    <div class="flex-item">
+                        <div id="hide-box">
+                            <img src="https://i.ibb.co/hR5jxvZ/10-6-Park-Car-chall-You.png" alt="10-6-Park-Car-chall-You">
+                            <p>Notice that you can use pivot turn and then move it backward.</p>
+                            <p>If you found another way, that's awesome!</p>
+                        </div>
+                        <button class="unhide-button" onclick="ShowAnswer()">Show Answer</button>
+                        
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+
+    <!-- Buttons for next -->
+    <div class="bottom-buttons">
+        <button id="home" class="home-icon"> <img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt="home-icon-silhouette" height="30"></button>
+        <a href="https://primelessons.org/en/Lessons.html"><button id="motors" class="next-button">Next: Motors <img src="https://i.ibb.co/0CWHhM7/icons8-arrow-full-white.png" alt="icons8-arrow-full-white" height="30" ></button></a>
+    </div>
+
+
+          <!-- Footer -->
+        <div class="footer-container">
+            <!-- <div class="logo-name">
+                <h3>ANS Robotics</h3>
+                <h3>---</h3>
+            </div> -->
+            
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#topics">Topics</a></li>
+                    <li><a href="#wro">About WRO</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &copy;2024; Designed by <span class="designer">Ashley Lin </span> | Senior 2024 | American Nicaraguan School</p>
+            </div>
+        </div>
+
+
+    </div>
+    
+
+    <script src="quizSection.js"></script>
+    <script src="showAnswer.js"></script>
+</body>
+</html>
